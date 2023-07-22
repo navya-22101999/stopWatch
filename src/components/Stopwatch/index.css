@@ -1,0 +1,49 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+.stopWatch-container {
+  height: 40vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+.start {
+  background-color: #1db05f;
+  height: 7vh;
+  width: 80px;
+  font-size: 18px;
+  font-family: roboto;
+  color: white;
+  margin: 10px;
+}
+.stop {
+  background-color: #ef0d36;
+  height: 7vh;
+  width: 80px;
+  font-size: 18px;
+  font-family: roboto;
+  color: white;
+  margin: 10px;
+}
+.reset {
+  background-color: #eaa800;
+  height: 7vh;
+  width: 80px;
+  font-size: 18px;
+  font-family: roboto;
+  color: white;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+  .stopWatch-container {
+    margin-left: 20px;
+  }
+}
